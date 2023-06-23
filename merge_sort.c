@@ -7,7 +7,7 @@ void merge(int *v, int *c, int i, int m, int f);
 
 int main (void) {
   int i,j;
-  int num_vect = 32;
+  int num_vect = 80;
   int size_vect = 32000000; // 32 milhoes
 
   int (*bag)[size_vect] = malloc (num_vect * sizeof *bag);
